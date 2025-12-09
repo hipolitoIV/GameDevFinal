@@ -4486,6 +4486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1197246280}
   - component: {fileID: 1197246281}
+  - component: {fileID: 1197246282}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -4554,6 +4555,19 @@ MonoBehaviour:
   m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 519420031}
+--- !u!114 &1197246282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197246278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5895dda7a73a4c2898a894d9d5181c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  resetDelay: 1.5
 --- !u!1 &1266588370
 GameObject:
   m_ObjectHideFlags: 0

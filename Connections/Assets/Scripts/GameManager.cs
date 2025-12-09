@@ -1,0 +1,102 @@
+using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+/// <summary>
+/// Manages overall game state, level progression, and resets.
+/// </summary>
+public class GameManager : MonoBehaviour
+{
+    // C# Property-based Singleton pattern for clean access
+    public static GameManager Instance { get; private set; } 
+
+    [Header("Level Complete Settings")]
+    [Tooltip("The time both required doors must be occupied to complete the level.")]
+    [SerializeField] private float requiredTimeAtDoor = 2f; 
+
+    private float levelExitTimer = 0f;
+    
+    // An array of all DoorTrigger objects required for level completion
+    private DoorTrigger[] requiredDoors; 
+
+    [Header("Death Reset Settings")]
+    [Tooltip("Delay before the scene is reloaded after a player death.")]
+    [SerializeField] private float resetDelay = 1.5f;
+
+    private bool isLevelResetting = false;
+
+    private void Awake()
+    {
+        // Singleton
+        if (Instance == null)
+        {
+            Instance = this;
+            // Find all doors required for the level exit
+            requiredDoors = FindObjectsByType<DoorTrigger>(FindObjectsSortMode.None);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void Update()
+    {
+        // Check if all required doors are currently occupied
+        if (AreAllDoorsOccupied())
+        {
+            levelExitTimer += Time.deltaTime;
+
+            if (levelExitTimer >= requiredTimeAtDoor)
+            {
+                LevelComplete();
+            }
+        }
+        else
+        {
+            // Reset timer immediately if any door is unoccupied
+            levelExitTimer = 0f; 
+        }
+    }
+
+    /// <summary>
+    /// Checks if every required door is currently occupied by its designated player.
+    /// </summary>
+    /// <returns>True if all required doors are occupied; otherwise, false.</returns>
+    private bool AreAllDoorsOccupied()
+    {
+        foreach (var door in requiredDoors)
+        {
+            if (!door.IsOccupied)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public void PlayerDied()
+    {
+        if (isLevelResetting) return;
+
+        isLevelResetting = true;
+        // Use a Coroutine instead of Invoke for better control and clarity
+        StartCoroutine(ResetLevelAfterDelay(resetDelay));
+    }
+
+    private IEnumerator ResetLevelAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        
+        // Reload the current scene
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
+    }
+
+    private void LevelComplete()
+    {
+        Debug.Log("LEVEL COMPLETE! Moving to the next scene.");
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        SceneManager.LoadScene(nextSceneIndex);
+    }
+}
