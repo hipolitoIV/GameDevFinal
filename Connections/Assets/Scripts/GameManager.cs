@@ -17,7 +17,8 @@ public class GameManager : MonoBehaviour
     private float levelExitTimer = 0f;
     
     // An array of all DoorTrigger objects required for level completion
-    private DoorTrigger[] requiredDoors; 
+    private DoorTrigger[] requiredDoors;
+    private Coin[] requiredCoins;
 
     [Header("Death Reset Settings")]
     [Tooltip("Delay before the scene is reloaded after a player death.")]
@@ -33,6 +34,7 @@ public class GameManager : MonoBehaviour
             Instance = this;
             // Find all doors required for the level exit
             requiredDoors = FindObjectsByType<DoorTrigger>(FindObjectsSortMode.None);
+            requiredCoins = FindObjectsByType<Coin>(FindObjectsSortMode.None);
         }
         else
         {
@@ -43,7 +45,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         // Check if all required doors are currently occupied
-        if (AreAllDoorsOccupied())
+        if (AreAllDoorsOccupied() && AllCoinsCollected())
         {
             levelExitTimer += Time.deltaTime;
 
@@ -72,6 +74,24 @@ public class GameManager : MonoBehaviour
                 return false;
             }
         }
+        return true;
+    }
+
+    //Checks if there are any coins remaining
+    //returns true if there are coins in scene, return false if there are none left
+    private bool AllCoinsCollected()
+    {
+        // Loop through every coin the level started with
+        foreach (var coin in requiredCoins)
+        {
+            // If the coin reference still exists, it has NOT been collected
+            if (coin != null)
+            {
+                return false;
+            }
+        }
+
+        // If we got here, all coins are gone
         return true;
     }
 

@@ -1,6 +1,5 @@
 using UnityEngine;
-// This script handles killing players 
-// when the enter the wrong fire.
+
 public class Fire : MonoBehaviour
 {
     public enum FireColor { Red, Blue }
@@ -14,24 +13,23 @@ public class Fire : MonoBehaviour
             // Player 1 dies if fire is NOT red
             if (fireColor != FireColor.Red)
             {
-                KillPlayer(other.gameObject);
+                ReloadScene();
             }
         }
-
         // Player 2 touches fire
         else if (other.CompareTag("Player2"))
         {
             // Player 2 dies if fire is NOT blue
             if (fireColor != FireColor.Blue)
             {
-                KillPlayer(other.gameObject);
+                ReloadScene();
             }
         }
     }
 
-    private void KillPlayer(GameObject player)
+    private void ReloadScene()
     {
-        // I should maybe make a singleton GameManager for handling death.
-        Destroy(player);
+        // Tell the GameManager to reset the level
+        GameManager.Instance.PlayerDied();
     }
 }
