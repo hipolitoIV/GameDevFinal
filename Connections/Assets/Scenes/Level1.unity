@@ -3135,6 +3135,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7377998552997333743, guid: 34c6ae6775ca67943a1986d3cd7db4bc, type: 3}
+      propertyPath: coinColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061473173847904262, guid: 34c6ae6775ca67943a1986d3cd7db4bc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3561535824858686638, guid: 34c6ae6775ca67943a1986d3cd7db4bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.68
@@ -3246,7 +3254,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3259,6 +3268,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7377998552997333743, guid: 34c6ae6775ca67943a1986d3cd7db4bc, type: 3}
+      propertyPath: coinColor
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3561535824858686638, guid: 34c6ae6775ca67943a1986d3cd7db4bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.24
@@ -3303,7 +3316,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueCoin (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3061473173847904262, guid: 34c6ae6775ca67943a1986d3cd7db4bc, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
