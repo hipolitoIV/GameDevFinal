@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 2b1c3cea6f677af48885a810b3412878
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2961580674617010862
+    second: Pixel Art Buttons (1)_0
+  - first:
+      213: 2409538858058643684
+    second: Pixel Art Buttons (1)_1
+  - first:
+      213: -4768545802014480620
+    second: Pixel Art Buttons (1)_2
+  - first:
+      213: -4213109833494162380
+    second: Pixel Art Buttons (1)_3
+  - first:
+      213: -4069308622573909529
+    second: Pixel Art Buttons (1)_4
+  - first:
+      213: -7452728290811695508
+    second: Pixel Art Buttons (1)_5
+  - first:
+      213: 7293589104199945299
+    second: Pixel Art Buttons (1)_6
+  - first:
+      213: -6054194481699546269
+    second: Pixel Art Buttons (1)_7
+  - first:
+      213: 2815109564902868763
+    second: Pixel Art Buttons (1)_8
+  - first:
+      213: 4372004894284657362
+    second: Pixel Art Buttons (1)_9
+  - first:
+      213: -938329712358628018
+    second: Pixel Art Buttons (1)_10
+  - first:
+      213: 8961059577944770353
+    second: Pixel Art Buttons (1)_11
+  - first:
+      213: -5803081938157220401
+    second: Pixel Art Buttons (1)_12
+  - first:
+      213: 6197393706302556959
+    second: Pixel Art Buttons (1)_13
+  - first:
+      213: 153015570094107395
+    second: Pixel Art Buttons (1)_14
+  - first:
+      213: -3140274856792019330
+    second: Pixel Art Buttons (1)_15
+  - first:
+      213: -6052984110952590236
+    second: Pixel Art Buttons (1)_16
+  - first:
+      213: -3203657293371711875
+    second: Pixel Art Buttons (1)_17
+  - first:
+      213: -3645476786937969184
+    second: Pixel Art Buttons (1)_18
+  - first:
+      213: 198602054223331557
+    second: Pixel Art Buttons (1)_19
+  - first:
+      213: 6953291344505776060
+    second: Pixel Art Buttons (1)_20
+  - first:
+      213: -2957874273169173483
+    second: Pixel Art Buttons (1)_21
+  - first:
+      213: -3680031165724004433
+    second: Pixel Art Buttons (1)_22
+  - first:
+      213: -2354872517826277698
+    second: Pixel Art Buttons (1)_23
+  - first:
+      213: 3210259713143146007
+    second: Pixel Art Buttons (1)_24
+  - first:
+      213: -4077102051379930805
+    second: Pixel Art Buttons (1)_25
+  - first:
+      213: 5712746136752309636
+    second: Pixel Art Buttons (1)_26
+  - first:
+      213: -8051348173727582700
+    second: Pixel Art Buttons (1)_27
+  - first:
+      213: 2579503948968900414
+    second: Pixel Art Buttons (1)_28
+  - first:
+      213: -2690688718063704513
+    second: Pixel Art Buttons (1)_29
+  - first:
+      213: -6615758656436689024
+    second: Pixel Art Buttons (1)_30
+  - first:
+      213: -865411660818515102
+    second: Pixel Art Buttons (1)_31
+  - first:
+      213: 3172312844291698789
+    second: Pixel Art Buttons (1)_32
+  - first:
+      213: 1123244166153724980
+    second: Pixel Art Buttons (1)_33
+  - first:
+      213: -2838936037169695690
+    second: Pixel Art Buttons (1)_34
+  - first:
+      213: -1318433276253351697
+    second: Pixel Art Buttons (1)_35
+  - first:
+      213: 3267369705793653074
+    second: Pixel Art Buttons (1)_36
+  - first:
+      213: -2651361690626642528
+    second: Pixel Art Buttons (1)_37
+  - first:
+      213: -3866339487221465388
+    second: Pixel Art Buttons (1)_38
+  - first:
+      213: 5700922902955635781
+    second: Pixel Art Buttons (1)_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 266
+        width: 56
+        height: 52
+      alignment: 9
+      pivot: {x: 0.11609455, y: 0.40459266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa6534bee5a91920800000000000000
+      internalID: 2961580674617010862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 266
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8f51b33d6607120800000000000000
+      internalID: 2409538858058643684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 266
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4172fbf9bd8b2ddb0800000000000000
+      internalID: -4768545802014480620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 266
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43410eeade60885c0800000000000000
+      internalID: -4213109833494162380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 266
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e94c0e2e59e687c0800000000000000
+      internalID: -4069308622573909529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 266
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e2aa21b17929890800000000000000
+      internalID: -7452728290811695508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 266
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c4f7da5a8083560800000000000000
+      internalID: 7293589104199945299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 266
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b1b25023e2bfba0800000000000000
+      internalID: -6054194481699546269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 202
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1707d3fb37411720800000000000000
+      internalID: 2815109564902868763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 202
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d23b18994b7cac30800000000000000
+      internalID: 4372004894284657362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 202
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e456bac19126af2f0800000000000000
+      internalID: -938329712358628018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 202
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137828a55341c5c70800000000000000
+      internalID: 8961059577944770353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_12
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 202
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd47a929bf477fa0800000000000000
+      internalID: -5803081938157220401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_13
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 202
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bc76d9db0910650800000000000000
+      internalID: 6197393706302556959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_14
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 202
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b209ca9de9f1200800000000000000
+      internalID: 153015570094107395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_15
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 202
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e22d7d7a08b64d0800000000000000
+      internalID: -3140274856792019330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 138
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464569b650b7ffba0800000000000000
+      internalID: -6052984110952590236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 138
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e5d765aa25a83d0800000000000000
+      internalID: -3203657293371711875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 138
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e541a54d2aa86dc0800000000000000
+      internalID: -3645476786937969184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_19
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 138
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e005ad148391c200800000000000000
+      internalID: 198602054223331557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 138
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7a01143ad0f7060800000000000000
+      internalID: 6953291344505776060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 138
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5141c71250583f6d0800000000000000
+      internalID: -2957874273169173483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_22
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 138
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf67a40727edecc0800000000000000
+      internalID: -3680031165724004433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_23
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 138
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe82a3fbefc15fd0800000000000000
+      internalID: -2354872517826277698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 74
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71605ae43322d8c20800000000000000
+      internalID: 3210259713143146007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 74
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b499b7229493b67c0800000000000000
+      internalID: -4077102051379930805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_26
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 74
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4854b1d0850c74f40800000000000000
+      internalID: 5712746136752309636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_27
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 74
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4163afd6e7dd34090800000000000000
+      internalID: -8051348173727582700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_28
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 88
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37320fbc2d3cc320800000000000000
+      internalID: 2579503948968900414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_29
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 88
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3669a6edd0c8aad0800000000000000
+      internalID: -2690688718063704513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_30
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 88
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0872063cd8a1034a0800000000000000
+      internalID: -6615758656436689024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_31
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 88
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b7e6cfda07df3f0800000000000000
+      internalID: -865411660818515102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5607a6869b1560c20800000000000000
+      internalID: 3172312844291698789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_33
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 24
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4346f9f2e90969f00800000000000000
+      internalID: 1123244166153724980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_34
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 24
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634f17c27b21a98d0800000000000000
+      internalID: -2838936037169695690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_35
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 24
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe05ddcabebf3bde0800000000000000
+      internalID: -1318433276253351697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_36
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 24
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25904b7af67085d20800000000000000
+      internalID: 3267369705793653074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_37
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 24
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adae130798743bd0800000000000000
+      internalID: -2651361690626642528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_38
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 24
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de391b98b0085ac0800000000000000
+      internalID: -3866339487221465388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Buttons (1)_39
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 24
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5443f8aec2fbd1f40800000000000000
+      internalID: 5700922902955635781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b4df808bc485bcb4c8f66251f3720e8f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel Art Buttons (1)_0: 2961580674617010862
+      Pixel Art Buttons (1)_1: 2409538858058643684
+      Pixel Art Buttons (1)_10: -938329712358628018
+      Pixel Art Buttons (1)_11: 8961059577944770353
+      Pixel Art Buttons (1)_12: -5803081938157220401
+      Pixel Art Buttons (1)_13: 6197393706302556959
+      Pixel Art Buttons (1)_14: 153015570094107395
+      Pixel Art Buttons (1)_15: -3140274856792019330
+      Pixel Art Buttons (1)_16: -6052984110952590236
+      Pixel Art Buttons (1)_17: -3203657293371711875
+      Pixel Art Buttons (1)_18: -3645476786937969184
+      Pixel Art Buttons (1)_19: 198602054223331557
+      Pixel Art Buttons (1)_2: -4768545802014480620
+      Pixel Art Buttons (1)_20: 6953291344505776060
+      Pixel Art Buttons (1)_21: -2957874273169173483
+      Pixel Art Buttons (1)_22: -3680031165724004433
+      Pixel Art Buttons (1)_23: -2354872517826277698
+      Pixel Art Buttons (1)_24: 3210259713143146007
+      Pixel Art Buttons (1)_25: -4077102051379930805
+      Pixel Art Buttons (1)_26: 5712746136752309636
+      Pixel Art Buttons (1)_27: -8051348173727582700
+      Pixel Art Buttons (1)_28: 2579503948968900414
+      Pixel Art Buttons (1)_29: -2690688718063704513
+      Pixel Art Buttons (1)_3: -4213109833494162380
+      Pixel Art Buttons (1)_30: -6615758656436689024
+      Pixel Art Buttons (1)_31: -865411660818515102
+      Pixel Art Buttons (1)_32: 3172312844291698789
+      Pixel Art Buttons (1)_33: 1123244166153724980
+      Pixel Art Buttons (1)_34: -2838936037169695690
+      Pixel Art Buttons (1)_35: -1318433276253351697
+      Pixel Art Buttons (1)_36: 3267369705793653074
+      Pixel Art Buttons (1)_37: -2651361690626642528
+      Pixel Art Buttons (1)_38: -3866339487221465388
+      Pixel Art Buttons (1)_39: 5700922902955635781
+      Pixel Art Buttons (1)_4: -4069308622573909529
+      Pixel Art Buttons (1)_5: -7452728290811695508
+      Pixel Art Buttons (1)_6: 7293589104199945299
+      Pixel Art Buttons (1)_7: -6054194481699546269
+      Pixel Art Buttons (1)_8: 2815109564902868763
+      Pixel Art Buttons (1)_9: 4372004894284657362
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
