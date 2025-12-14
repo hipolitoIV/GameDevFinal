@@ -523,7 +523,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Title
+  m_text: Connections
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0b810cc9ab9cc54b8fc3ddb4fcba57b, type: 2}
   m_sharedMaterial: {fileID: -614048313043240060, guid: c0b810cc9ab9cc54b8fc3ddb4fcba57b, type: 2}
