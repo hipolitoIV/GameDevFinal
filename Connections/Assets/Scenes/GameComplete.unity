@@ -509,7 +509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game over
+  m_text: Game Completed
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0b810cc9ab9cc54b8fc3ddb4fcba57b, type: 2}
   m_sharedMaterial: {fileID: -614048313043240060, guid: c0b810cc9ab9cc54b8fc3ddb4fcba57b, type: 2}
@@ -536,8 +536,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
