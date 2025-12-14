@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -26,6 +27,9 @@ public class GameManager : MonoBehaviour
 
     private bool isLevelResetting = false;
 
+    public TextMeshProUGUI coinsLeftText;
+    private int coinsRemaining;
+
     private void Awake()
     {
         // Singleton
@@ -35,6 +39,9 @@ public class GameManager : MonoBehaviour
             // Find all doors required for the level exit
             requiredDoors = FindObjectsByType<DoorTrigger>(FindObjectsSortMode.None);
             requiredCoins = FindObjectsByType<Coin>(FindObjectsSortMode.None);
+
+            coinsRemaining = requiredCoins.Length;
+            UpdateCoinsText();
         }
         else
         {
@@ -44,6 +51,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+
         // Check if all required doors are currently occupied
         if (AreAllDoorsOccupied() && AllCoinsCollected())
         {
@@ -118,5 +126,16 @@ public class GameManager : MonoBehaviour
         Debug.Log("LEVEL COMPLETE! Moving to the next scene.");
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
         SceneManager.LoadScene(nextSceneIndex);
+    }
+
+    private void UpdateCoinsText()
+    {
+        coinsLeftText.text = $"Coins Left: {coinsRemaining}";
+    }
+
+    public void CoinCollected()
+    {
+        coinsRemaining--;
+        UpdateCoinsText();
     }
 }

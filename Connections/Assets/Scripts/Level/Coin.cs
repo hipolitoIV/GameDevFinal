@@ -11,12 +11,14 @@ public class Coin : MonoBehaviour
         // Red coin ? Player1 collects
         if (coinColor == CoinColor.Red && collision.CompareTag("Player1"))
         {
+            GameManager.Instance.CoinCollected();
             Destroy(gameObject);
         }
 
         // Blue coin ? Player2 collects
         else if (coinColor == CoinColor.Blue && collision.CompareTag("Player2"))
         {
+            GameManager.Instance.CoinCollected();
             Destroy(gameObject);
         }
     }
