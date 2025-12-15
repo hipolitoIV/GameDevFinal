@@ -154,7 +154,7 @@ public class PlayerController : MonoBehaviour
         float accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? acceleration : deceleration;
         float movement = Mathf.Pow(Mathf.Abs(speedDif) * accelRate, velPower) * Mathf.Sign(speedDif);
 
-        _rb.AddForce(movement * Vector2.right);
+        _rb.linearVelocity = new Vector2(_rb.linearVelocity.x + movement * Time.fixedDeltaTime, _rb.linearVelocity.y);
     }
 
     private void PerformJump()
