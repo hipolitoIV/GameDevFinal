@@ -9,14 +9,14 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     // C# Property-based Singleton pattern for clean access
-    public static GameManager Instance { get; private set; } 
+    public static GameManager Instance { get; private set; }
 
     [Header("Level Complete Settings")]
     [Tooltip("The time both required doors must be occupied to complete the level.")]
-    [SerializeField] private float requiredTimeAtDoor = 2f; 
+    [SerializeField] private float requiredTimeAtDoor = 2f;
 
     private float levelExitTimer = 0f;
-    
+
     // An array of all DoorTrigger objects required for level completion
     private DoorTrigger[] requiredDoors;
     private Coin[] requiredCoins;
@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour
         else
         {
             // Reset timer immediately if any door is unoccupied
-            levelExitTimer = 0f; 
+            levelExitTimer = 0f;
         }
     }
 
@@ -103,19 +103,24 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
-    public void PlayerDied()
+    public void PlayerDied(float delay = 0)
     {
         if (isLevelResetting) return;
 
         isLevelResetting = true;
-        // Use a Coroutine instead of Invoke for better control and clarity
+        // if delay parameter is set.
+        if (delay > 0)
+        {
+            StartCoroutine(ResetLevelAfterDelay(delay));
+            return;
+        }
         StartCoroutine(ResetLevelAfterDelay(resetDelay));
     }
 
     private IEnumerator ResetLevelAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        
+
         // Reload the current scene
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);

@@ -9,7 +9,7 @@ public class Spikes : MonoBehaviour
         // If either player touches the spikes
         if (other.CompareTag("Player1") || other.CompareTag("Player2"))
         {
-            GameManager.Instance.PlayerDied();
+            GameManager.Instance.PlayerDied(.25f);
         }
     }
 }
